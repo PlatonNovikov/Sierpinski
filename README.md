@@ -18,7 +18,7 @@ An obscure Sierpinski triange generator
                    [63                         ]=
                   1;                            for
                  (i=0;i<64;i++){for(x=0;x<127;x++)write
-                (1,                              &".*"
+                (1,                              &" #"
                [arr[                            x  ]]
               ,1    )                          ;   write
              (1      ,                       "\n"    ,1
