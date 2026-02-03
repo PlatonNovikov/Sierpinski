@@ -1,8 +1,8 @@
                                  arr
-                                [127
+                                [200
                                ]=  {0
                               };    buf
-                             [127    ]=
+                             [200    ]=
                             {0        };
                            x,          i;
                           mod           (a
@@ -12,9 +12,9 @@
                       b)                    %b
                      );                    }main
                     ()                        {arr
-                   [63                         ]=
+                   [99                         ]=
                   1;                            for
-                 (i=0;i<64;i++){for(x=0;x<127;x++)write
+                 ( ;; ){ for ( x=0; x<200; x++)write
                 (1,                              &" #"
                [arr[                            x  ]]
               ,1    )                          ;   write
@@ -25,10 +25,10 @@
          *10             *                10             *10
         *10               ;              x                ++
        );                 for           (                  x=
-      0;                    x          <                    127
+      0;                    x          <                    200
      ;x                      ++       )                      buf
     [x                        ]      =                        (26
    >>                          (    arr                        [mod
-  (x                            -  1                            ,127
+  (x                            -  1                            ,200
  )]                              *4                              +arr
-[x]*2+arr[(x+1)%127]))&1;memcpy(arr,buf,sizeof(arr));}}//made by gkfnjy
+[x]*2+arr[(x+1)%200]))&1;memcpy(arr,buf,sizeof(arr));}}//made by gkfnjy
